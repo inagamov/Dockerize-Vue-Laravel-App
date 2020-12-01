@@ -9,6 +9,7 @@ Everything you need to dockerize your Vue & Laravel App quickly.
 ### 1 Step - folders renaming.
 
 Rename folder with Vue CLI to **frontend**
+
 Rename folder with Laravel to **backend**
 
 ### 2 Step - copy & paste.
