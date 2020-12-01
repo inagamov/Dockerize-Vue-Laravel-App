@@ -19,8 +19,9 @@ Place **vue.config.js** into the **frontend** folder (with your Vue application)
 
 If you don't need mysql service running on your server comment these lines of code at **/docker-compose.yml**
 
-![MySQL service  at docker-compose.yml](https://imgur.com/hvpObID)
+![MySQL service  at docker-compose.yml](https://i.imgur.com/hvpObID.png)
 
+&nbsp;
 
 ## Docker launch
 
@@ -40,6 +41,6 @@ Facing error like this:
 
 Means that you already have something running at port 80 on your server.
 
-To solve it, change your nginx port at **/docker-compose.yml**, **line 9** (from 80:80 to 8084:80, for example. Or any other)
+To solve it, change your nginx port at **/docker-compose.yml**, **line 9** (from **80:80** to **8084:80**, for example. Or any other that is not is current use on your server)
 
 And that's it. You don't have to change anything else to solve this problem.
