@@ -37,6 +37,7 @@ services:
             # custom adjustments to php.ini
             # i. e. "xdebug.remote_host" to debug the dockerized app
             - ./etc/php:/usr/local/etc/php/local.conf.d/
+            - ./frontend:/frontend
         environment:
             # add our custom config files for the php to scan
             PHP_INI_SCAN_DIR: "/usr/local/etc/php/conf.d/:/usr/local/etc/php/local.conf.d/"
